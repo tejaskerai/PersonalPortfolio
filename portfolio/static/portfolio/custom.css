@@ -1,6 +1,31 @@
 .wrapper {
-    border: 5px solid black;
-    min-height: 300px;
-    height: px;
+    margin: 0 auto;
     width: 100%;
+    max-width: 1000px;
+    height: auto;
+}
+
+.videowrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0px;
+}
+
+.videowrapper iframe{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 100%;
+    width: 100%
+
+}
+
+.jumbotron {
+  padding: 2rem 7%;
+  margin-bottom: 2rem;
+  background-color: #e9ecef;
+  border-radius: .3rem;
 }

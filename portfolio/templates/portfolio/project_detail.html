@@ -3,16 +3,26 @@
 {% load static %}
 {% block content %}
 
-<div class="bg-light p-5 rounded-lg m-3">
+
+<div class="jumbotron m-3">
     <h1 style="text-align:center;" class="display-4">{{ project.title }}</h1>
     <p style="text-align:center;" class="lead">{{ project.summary }}</p>
     <hr class="my-4">
     <p>{{ project.description }}</p>
-    <a href="{{ project.githubUrl }}" target="_blank">Github</a>
 
-     <div class="wrapper">
-        {% video project.url 'medium' %}
+    <a href="{{ project.githubUrl }}">
+        <button type="button" class="btn btn-primary">Github</button>
+    </a>
+
+    <div class="wrapper">
+        <div class="videowrapper">
+
+            <iframe width="900" height="506" src="{{ project.youtubeUrl }}" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+        </div>
     </div>
+
 
     <h3 class="display-6">Tech Stack</h3>
 
@@ -24,7 +34,6 @@
             {% endfor %}
         </ul>
     </ul>
-
 </div>
 
 
