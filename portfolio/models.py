@@ -1,12 +1,15 @@
 from django.db import models
+from embed_video.fields import EmbedVideoField
 
 # Create your models here.
 
 class Project(models.Model):
     title = models.CharField(max_length=100)
-    description = models.CharField(max_length=200)
+    summary = models.CharField(max_length=200)
+    description = models.TextField()
     image = models.ImageField(upload_to='media/portfolio/images/')
-    url = models.URLField(blank=True)
+    tech_stack = models.TextField(default="")
+    url = EmbedVideoField()
 
 
     def __str__(self):
