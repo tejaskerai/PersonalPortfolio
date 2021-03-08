@@ -9,6 +9,7 @@ class Project(models.Model):
     description = models.TextField()
     image = models.ImageField(upload_to='media/portfolio/images/')
     tech_stack = models.TextField(default="")
+    githubUrl = models.CharField(max_length=200, default="")
     url = EmbedVideoField()
 
 

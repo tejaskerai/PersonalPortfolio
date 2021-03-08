@@ -8,20 +8,20 @@
     <p style="text-align:center;" class="lead">{{ project.summary }}</p>
     <hr class="my-4">
     <p>{{ project.description }}</p>
+    <a href="{{ project.githubUrl }}" target="_blank">Github</a>
 
-    <h3 class="display-6">Tech Stack</h3>
-
-    <!--{% video project.url '30% x 30%' %}-->
-
-    <div class="wrapper">
+     <div class="wrapper">
         {% video project.url 'medium' %}
     </div>
 
+    <h3 class="display-6">Tech Stack</h3>
+
     <ul class="list-unstyled">
         <ul>
-            <li>Faucibus porta lacus fringilla vel</li>
-            <li>Aenean sit amet erat nunc</li>
-            <li>Eget porttitor lorem</li>
+
+            {% for item in split_tech_stack %}
+            <li>{{ item|safe }}</li>
+            {% endfor %}
         </ul>
     </ul>
 
