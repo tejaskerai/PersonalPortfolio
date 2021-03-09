@@ -11,18 +11,96 @@
     </div>
 </div>
 
-<div class="mx-auto" style="width: 80%;margin-top: 1em;">
-    <div class="card" style="background-color: rgb(60, 65, 230)">
-        <div class="card-body">
-            <img src="{% static 'interests/bg1.jpg' %}" class="img-fluid" alt="My image">
+
+<main>
+    <div class="album py-5 bg-light">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <!--break-->
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <a href="{% static 'interests/bg1.jpg' %}">
+                            <img src="{% static 'interests/bg1.jpg' %}" class="img-fluid mb-2">
+                        </a>
+                        <div class="card-body">
+                            <p class="card-text"><strong>title</strong></p>
+                            <p class="card-text">summary</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="#">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--break-->
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <a href="{% static 'interests/astrospace.png' %}">
+                            <img src="{% static 'interests/astrospace.png' %}" class="img-fluid mb-2">
+                        </a>
+                        <div class="card-body">
+                            <p class="card-text"><strong>title</strong></p>
+                            <p class="card-text">sum</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="#">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--break-->
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <a href="{% static 'interests/Borealis_Mountain.png' %}">
+                            <img src="{% static 'interests/Borealis_Mountain.png' %}" class="img-fluid mb-2">
+                        </a>
+                        <div class="card-body">
+                            <p class="card-text"><strong>title</strong></p>
+                            <p class="card-text">sum</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="#">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                 <!--break-->
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <a href="{% static 'interests/Borealis_Mountain.png' %}">
+                            <img src="{% static 'interests/Borealis_Mountain.png' %}" class="img-fluid mb-2">
+                        </a>
+                        <div class="card-body">
+                            <p class="card-text"><strong>title</strong></p>
+                            <p class="card-text">sum</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="#">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
         </div>
     </div>
 
-    <div class="card" style="background-color: rgb(60, 65, 230)">
-        <div class="card-body">
-            <img src="{% static 'interests/astrospace.png' %}" class="img-fluid" alt="My image">
-        </div>
-    </div>
-</div>
+</main>
+
 
 {% endblock %}
