@@ -11,6 +11,5 @@ def interests(request):
     interests = Interest.objects.all()
     return render(request, 'interests/interests.html', {'interests':interests})
 
-def interest_detail(request, interest_id):
-    interest = get_object_or_404(Interest, pk=interest_id)
-    return render(request, 'interests/interest_detail.html', {'interest':interest})
+def photoshop(request):
+    return render(request, 'interests/photoshop.html')

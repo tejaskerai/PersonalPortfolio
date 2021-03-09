@@ -5,6 +5,17 @@
 
 <div class="mx-auto" style="width: 80%;margin-top: 1em;">
 
+    <div class="card">
+        <div class="card-header">
+            <h5 class="card-title">Photoshop images</h5>
+        </div>
+        <div class="card-body">
+            <p class="card-text">I like create images and backgrounds in photoshop</p>
+
+            <a href="{% url 'interests:photoshop' %}" class="btn btn-primary">More info</a>
+
+        </div>
+    </div>
     {% for interest in interests %}
     <div class="card">
         <div class="card-header">
@@ -13,14 +24,11 @@
         <div class="card-body">
             <p class="card-text">{{ interest.description }}</p>
 
-            {% if interest.moreInfo %}
-                 <a href="{% url 'interests:interest_detail' interest.id%}" class="btn btn-primary">More info</a>
+            <!--{% if interest.moreInfo %}-->
+            <!--<a href="{% url 'interests:photoshop' interest.id %}" class="btn btn-primary">More info</a>-->
 
-            {% endif %}
-
-
+            <!--{% endif %}-->
         </div>
-
     </div>
     {% endfor%}
 </div>

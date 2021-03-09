@@ -33,15 +33,28 @@
 }
 
 .iconsize{
-    width: 25%;
-    height: 25%;
+    width: 20%;
+    height: 20%;
+    max-width: 100px;
+    max-height: 100px;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top:4%;
+
+
 }
 
 .card{
     margin-top: 1em;
 }
 
-img {
+.img-fluid {
   width: 100%;
   height: auto;
 }
+
+.center{
+    text-align: center;
+    display: block;
+}
+
