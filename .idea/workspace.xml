@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e071f93-269c-4bc2-9a15-43d596bc4e3f" name="Default Changelist" comment="" />
+    <list default="true" id="1e071f93-269c-4bc2-9a15-43d596bc4e3f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,11 +24,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
               <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
             </state>
           </provider>
         </entry>
@@ -132,6 +143,7 @@
         <option value="$PROJECT_DIR$/portfolio/templates/portfolio/portfolio.html" />
         <option value="$PROJECT_DIR$/portfolio/static/portfolio/custom.css" />
         <option value="$PROJECT_DIR$/templates/contact.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -152,6 +164,11 @@
             <path>
               <item name="PersonalPortfolio_Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="PersonalPortfolio_Project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PersonalPortfolio_Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PersonalPortfolio_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="personalportfolio" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PersonalPortfolio_Project" type="b2602c69:ProjectViewProjectNode" />
@@ -298,9 +315,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/contact/migrations/templates/contact/contact.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/personalportfolio/urls.py">
@@ -506,6 +520,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
         </state>
       </provider>
     </entry>
