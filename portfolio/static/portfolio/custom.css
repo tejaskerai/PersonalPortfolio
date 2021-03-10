@@ -53,8 +53,43 @@
   height: auto;
 }
 
+.img-container {
+    text-align: center;
+}
+
 .center{
     text-align: center;
     display: block;
 }
+
+
+/* When screen size is bigger */
+@media (min-width: 992px) {
+    #hometext {
+        font-size: 2rem;
+    }
+
+    #portfoliotext{
+        font-size: 3rem;
+    }
+
+    #blogdetailtitle {
+        font-size: 5rem;
+    }
+
+}
+
+/* When screen size is smaller */
+@media (max-width: 992px) {
+    #hometext {
+        font-size: 1.5rem;
+    }
+
+    #portfoliotext{
+        font-size: 2rem;
+    }
+
+    #blogdetailtitle {
+        font-size: 5rem;
+    }
 
