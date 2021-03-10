@@ -131,3 +131,8 @@ STATICFILES_DIR = [
 MEDIA_URL = '/media/'
 
 MEDIA_ROUTE = BASE_DIR / 'media'
+
+try:
+    from .local_settings import *
+except ImportError:
+    print("No local setting file found")
