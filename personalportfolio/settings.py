@@ -30,7 +30,6 @@ ALLOWED_HOSTS = ['tejaskerai.pythonanywhere.com']
 # Application definition
 
 INSTALLED_APPS = [
-    'blog',
     'portfolio',
     'embed_video',
     'interests',
