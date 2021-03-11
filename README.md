@@ -27,6 +27,6 @@ Clone the repository
 git@github.com:tejaskerai/PersonalPortfolio.git
 ```
 
-1. Download the requirements from the requirements.txt file
-2. In the terminal within the directory of the project run python manage.py runserver
+1. Download the requirements from **requirements.txt**
+2. In the terminal within the directory of the project run **python manage.py runserver**
 3. On a browser, navigate to http://localhost:8000 or http://127.0.0.1:8000/ to see the application running
