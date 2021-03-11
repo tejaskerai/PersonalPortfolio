@@ -8,7 +8,7 @@
     <h1 style="text-align:center;" class="display-4">{{ project.title }}</h1>
     <p style="text-align:center;" class="lead">{{ project.summary }}</p>
     <hr class="my-4">
-    <p>{{ project.description }}</p>
+    <p>{{ project.description|safe }}</p>
 
     <a href="{{ project.githubUrl }}" target="_blank">
         <button type="button" class="btn btn-primary" >Github</button>
@@ -26,14 +26,7 @@
 
     <h3 class="display-6">Tech Stack</h3>
 
-    <ul class="list-unstyled">
-        <ul>
-
-            {% for item in split_tech_stack %}
-            <li>{{ item|safe }}</li>
-            {% endfor %}
-        </ul>
-    </ul>
+    {{ project.tech_stack|safe }}
 </div>
 
 

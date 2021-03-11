@@ -8,6 +8,6 @@ def home(request):
 
 def project_detail(request, project_id):
     project = get_object_or_404(Project, pk=project_id)
-    tech_stack = project.tech_stack
-    split_tech_stack = tech_stack.split('/0')
-    return render(request, 'portfolio/project_detail.html', {'project': project, 'split_tech_stack': split_tech_stack})
+    # tech_stack = project.tech_stack
+    #split_tech_stack = tech_stack.split('/0')
+    return render(request, 'portfolio/project_detail.html', {'project': project})

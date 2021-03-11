@@ -7,10 +7,10 @@
 
     <div class="card">
         <div class="card-header">
-            <h5 class="card-title">Photoshop images</h5>
+            <h5 class="card-title">Digital Art</h5>
         </div>
         <div class="card-body">
-            <p class="card-text">I like create images and backgrounds in photoshop</p>
+            <p class="card-text">I like to create images and backgrounds in Photoshop which I then use on my devices, click the link below to see some of my work</p>
 
             <a href="{% url 'interests:photoshop' %}" class="btn btn-primary">More info</a>
 
@@ -22,7 +22,7 @@
             <h5 class="card-title">{{ interest.title }}</h5>
         </div>
         <div class="card-body">
-            <p class="card-text">{{ interest.description }}</p>
+            <p class="card-text">{{ interest.description|safe }}</p>
 
             <!--{% if interest.moreInfo %}-->
             <!--<a href="{% url 'interests:photoshop' interest.id %}" class="btn btn-primary">More info</a>-->
