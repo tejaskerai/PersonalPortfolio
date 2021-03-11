@@ -19,6 +19,7 @@ These tools were used to create the application:
 - **HTML** - Markup language used to create pages to be displayed in a web browser.
 - **CSS** - Used for describing the presentation of a document written in a HTML
 - **Bootstrap 4.6** - CSS Framework for developing responsive and mobile-first websites
+- **Pythonanywhere** - Web hosting service used to host the website
 
 
 
