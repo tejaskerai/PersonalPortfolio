@@ -5,6 +5,7 @@
 ## Overview 
 
 A website that show cases the projects that I have created, it also shows some of my interests and includes contact information. This project was created using Django 3 and hosted on pythonanywhere.
+The live website can be seen [here](https://tejaskerai.pythonanywhere.com/)
 
 ### To view a demo of the application click the video below:
 [![PersonalPortfolio](https://j.gifs.com/JyLkkv.gif)](https://www.youtube.com/watch?v=QPOexOQf6JQ&ab_channel=TejasKerai)
