@@ -24,7 +24,7 @@ These tools were used to create the application:
 ## Installation
 Clone the repository
 ```
-git@github.com:tejaskerai/Team-Project---GARITS.git
+git@github.com:tejaskerai/PersonalPortfolio.git
 ```
 
 1. Download the requirements from the requirements.txt file
