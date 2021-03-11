@@ -8,7 +8,7 @@ GARITS involved creating a desktop application for a garage business that would 
 This application was created as a team project at university.
 
 ### To view a demo of the application click the video below:
-[![PersonalPortfolio](https://gifs.com/gif/JyLkkv)](https://www.youtube.com/watch?v=QPOexOQf6JQ&ab_channel=TejasKerai)
+[![PersonalPortfolio](https://j.gifs.com/JyLkkv.gif)](https://www.youtube.com/watch?v=QPOexOQf6JQ&ab_channel=TejasKerai)
 
 ## Tech Stack
 These tools were used to create the application:
