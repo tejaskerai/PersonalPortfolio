@@ -8,4 +8,3 @@ __pycache__/
 local_settings.py
 /static/
 /venv/
-*.sqlite3
