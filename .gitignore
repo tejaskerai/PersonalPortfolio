@@ -7,3 +7,4 @@ __pycache__/
 /**/.idea/*
 local_settings.py
 /static/
+/venv/
