@@ -31,7 +31,7 @@ git@github.com:tejaskerai/PersonalPortfolio.git
 
 1. Download the requirements from **requirements.txt**: 
     ```pip install -r requirements.txt```
-2. Create local_setting.py under /personalportfolio/ and add the lines below, this will allow to run the wesbite locally:
+2. Create `local_settings.py` under /personalportfolio/ and add the lines below, this will allow to run the wesbite locally:
   ```
   DEBUG = True
   ALLOWED_HOSTS = []
