@@ -33,6 +33,8 @@ INSTALLED_APPS = [
     'portfolio',
     'embed_video',
     'interests',
+    'education',
+    'experience',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

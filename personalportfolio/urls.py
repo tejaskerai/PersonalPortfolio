@@ -25,6 +25,8 @@ urlpatterns = [
     path('', views.home, name='home'),
     path('contact/', views.contact, name='contact'),
     path('portfolio/', include('portfolio.urls')),
+    path('education/', include('education.urls')),
+    path('experience/', include('experience.urls')),
     path('interests/', include('interests.urls')),
     path('media/<path:path>', serve, {'document_root': settings.MEDIA_ROOT}),
     path('static/<path:path>', serve, {'document_root': settings.STATIC_ROOT})]
