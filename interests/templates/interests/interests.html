@@ -3,34 +3,31 @@
 {% block content %}
 {% load static %}
 
-<div class="mx-auto" style="width: 80%;margin-top: 1em;">
-
-    <div class="card">
-        <div class="card-header">
-            <h5 class="card-title">Digital Art</h5>
-        </div>
-        <div class="card-body">
-            <p class="card-text">I like to create images and backgrounds in Photoshop which I then use on my devices, click the link below to see some of my work</p>
-
-            <a href="{% url 'interests:photoshop' %}" class="btn btn-primary">More info</a>
-
-        </div>
+<div class="container">
+    <div class="jumbotron m-3">
+        <h1 id="portfoliotext">Interests</h1>
     </div>
+</div>
+
+<div class="container">
+    <!-- Digital Art Section -->
+    <div class="jumbotron m-3">
+        <h3>Digital Art</h3>
+        <p class="mb-2">I like to create images and backgrounds in Photoshop, which I then use on my devices. Click the link below to see some of my work.</p>
+        <a href="{% url 'interests:photoshop' %}" class="btn btn-primary">More info</a>
+    </div>
+
+    <!-- Other Interests -->
     {% for interest in interests %}
-    <div class="card">
-        <div class="card-header">
-            <h5 class="card-title">{{ interest.title }}</h5>
-        </div>
-        <div class="card-body">
-            <p class="card-text">{{ interest.description|safe }}</p>
-
-            <!--{% if interest.moreInfo %}-->
-            <!--<a href="{% url 'interests:photoshop' interest.id %}" class="btn btn-primary">More info</a>-->
-
-            <!--{% endif %}-->
-        </div>
+    <div class="jumbotron m-3">
+        <h3>{{ interest.title }}</h3>
+        <p class="mb-2">{{ interest.description|safe }}</p>
+        <!-- Uncomment if there is a "More info" link for each interest -->
+        <!-- {% if interest.moreInfo %}
+        <a href="{% url 'interests:interest_detail' interest.id %}" class="btn btn-primary">More info</a>
+        {% endif %} -->
     </div>
-    {% endfor%}
+    {% endfor %}
 </div>
 
 {% endblock %}
