@@ -3,6 +3,28 @@
 {% block content %}
 {% load static %}
 
+<style>
+    .experience-entry {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 2rem;
+    }
+    .experience-logo {
+        flex: 0 0 60px;
+        margin-right: 20px;
+    }
+    .experience-logo img {
+        height: 48px;
+        width: 48px;
+        object-fit: contain;
+        border-radius: 8px;
+        background: #fff;
+    }
+    .experience-details {
+        flex: 1;
+    }
+</style>
+
 <div class="container">
     <div class="jumbotron m-3">
         <h1 id="Experiencetext">Experience</h1>
@@ -10,30 +32,80 @@
 </div>
 
 <div class="container">
+    <!-- NewDay -->
+    <div class="jumbotron m-3">
+        <div class="experience-entry">
+            <div class="experience-logo">
+                <img src="{% static 'experience/newday_logo.jpeg' %}" alt="NewDay Logo">
+            </div>
+            <div class="experience-details">
+                <h3>NewDay</h3>
+                <p><strong>Software Engineer</strong></p>
+                <h6>Sep 2025 - Present | London, England, United Kingdom</h6>
+                <p>
+                    Software Engineer at NewDay, currently part of the Core Credit team
+                </p>
+            </div>
+        </div>
+    </div>
+
     <!-- Checkout.com -->
     <div class="jumbotron m-3">
-        <h3>Checkout.com</h3>
-        <p><strong>Software Engineer I</strong></p>
-        <p>Mar 2023 - Present | Hybrid | London, England, United Kingdom</p>
-        <p><strong>Full-time · Present</strong></p>
-        <hr class="my-4">
-        <p><strong>Associate Software Engineer</strong></p>
-        <p>Sep 2021 - Mar 2023 | Hybrid | London, England, United Kingdom</p>
-        <p><strong>Full-time · 1 yr 7 months</strong></p>
+        <div class="experience-entry">
+            <div class="experience-logo">
+                <img src="{% static 'experience/checkout_logo.jpeg' %}" alt="Checkout.com Logo">
+            </div>
+            <div class="experience-details">
+                <h3>Checkout.com</h3>
+                <p><strong>Software Engineer I</strong></p>
+                <h6>Mar 2023 - Apr 2025 | Hybrid | London, England, United Kingdom</h6>
+                <p>
+                    As a key member of the Client Settlements team, I ensured the smooth execution of daily merchant settlements, handling approximately 2,500+ settlements daily. I worked closely with the Finance and Treasury teams to gather requirements, optimize workflows, and continuously deliver new features to enhance operational efficiency.
+                </p>
+                <h6>Key Achievements:</h6>
+                <ul>
+                    <li>Designed and implemented flexible scheduling rules for monthly and bi-monthly settlements, streamlining processes and enabling scalability to support future growth and new market opportunities.</li>
+                    <li>Engineered an API to handle failed settlements, reducing incidents by enabling mass retriggering and mitigating potential risks to settlement reliability.</li>
+                    <li>Revamped the Client Settlement Dashboard API, boosting performance by 50%, enhancing developer productivity, and accelerating overall delivery times.</li>
+                </ul>
+                <p>
+                    <strong>Tech Stack:</strong> C#, .NET, AWS (Fargate, Lambda, DynamoDB, EventBridge), Terraform, Octopus Deploy
+                </p>
+                <hr class="my-4">
+                <p><strong>Associate Software Engineer</strong></p>
+                <h6>Sep 2021 - Mar 2023 | Hybrid | London, England, United Kingdom</h6>
+                <p>
+                    As an Associate Software Engineer, I contributed significantly to the Safeguarding project, ensuring regulatory compliance by producing daily reports crucial for tracking safeguarded funds, helping Checkout.com stay compliant with finance regulations.
+                </p>
+                <h6>Key Contributions:</h6>
+                <ul>
+                    <li>Produced daily, regulatory-compliant reports for the Hydra Safeguarding project, ensuring accurate tracking of safeguarded funds and compliance with finance regulations.</li>
+                    <li>Streamlined data workflows using DBT, Snowflake, and Airflow, creating reliable, testable data processing pipelines while adhering to best engineering practices.</li>
+                    <li>Collaborated with cross-functional teams to enhance data visualization and reporting through Looker, providing the Finance and Treasury teams with actionable insights that improved decision-making.</li>
+                </ul>
+            </div>
+        </div>
     </div>
 
     <!-- Arup -->
     <div class="jumbotron m-3">
-        <h3>Arup</h3>
-        <p><strong>Software Quality Assurance Intern</strong></p>
-        <p>Jun 2016 | London, England, United Kingdom</p>
-        <p><strong>Internship · 1 month</strong></p>
-        <h5>Key Responsibilities:</h5>
-        <ul>
-            <li>Developed an add-on allowing users to upload images to the website using HTML and CSS</li>
-            <li>Debugged parts of the website using browser inspection tools (Network and Console tabs)</li>
-            <li>Worked closely with developers for tasks in their projects and assisted with QA</li>
-        </ul>
+        <div class="experience-entry">
+            <div class="experience-logo">
+                <img src="{% static 'experience/arup_logo.jpg' %}" alt="Arup Logo">
+            </div>
+            <div class="experience-details">
+                <h3>Arup</h3>
+                <p><strong>Software Quality Assurance Intern</strong></p>
+                <h6>Jun 2016 | London, England, United Kingdom</h6>
+                <p><strong>Internship · 1 month</strong></p>
+                <h6>Key Responsibilities:</h6>
+                <ul>
+                    <li>Developed an add-on allowing users to upload images to the website using HTML and CSS</li>
+                    <li>Debugged parts of the website using browser inspection tools (Network and Console tabs)</li>
+                    <li>Worked closely with developers for tasks in their projects and assisted with QA</li>
+                </ul>
+            </div>
+        </div>
     </div>
 </div>
 
