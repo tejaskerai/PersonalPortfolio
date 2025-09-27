@@ -18,10 +18,12 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'dev-secret-key')
 DEBUG = os.environ.get('DEBUG', 'False') == 'True'
 
 # Hosts allowed (update with your Render + custom domain)
-ALLOWED_HOSTS = os.environ.get(
-    'ALLOWED_HOSTS',
-    'localhost,127.0.0.1'
-).split(',')
+ALLOWED_HOSTS = [
+    'tejaspersonalportfolio.onrender.com',
+    'tejaskerai.com',
+    'www.tejaskerai.com',
+]
+
 
 
 # Application definition
